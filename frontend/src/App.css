@@ -13,6 +13,33 @@
   }
 }
 
+.app-container {
+  display: flex;
+  height: 100vh; /* Ensure the app container fills the viewport height */
+}
+
+.main-content {
+  flex-grow: 1; /* Allow the main content area to grow and fill available space */
+  overflow-y: auto; /* Enable vertical scrolling if content overflows */
+}
+
+/* Add other styles as needed */
+
+
+/* New styles for card layout */
+.card {
+  background-color: #fff;
+  border-radius: 8px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+  transition: box-shadow 0.3s ease;
+  margin-bottom: 20px; /* Add margin between cards */
+}
+
+.card:hover {
+  box-shadow: 0 8px 12px rgba(0, 0, 0, 0.2);
+}
+
 .App-header {
   background-color: #282c34;
   min-height: 100vh;

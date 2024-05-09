@@ -1,3 +1,4 @@
+
 import React, { useState, useEffect } from 'react';
 import axios from 'axios';
 import { useAuth } from './AuthContext';
@@ -6,6 +7,7 @@ import { Link } from 'react-router-dom';
 const Profile = () => {
   const { isLoggedIn } = useAuth();
   const [userProfile, setUserProfile] = useState(null);
+  const [error, setError] = useState(null);
 
   useEffect(() => {
     if (isLoggedIn) {
@@ -17,8 +19,10 @@ const Profile = () => {
     try {
       const response = await axios.get('http://localhost:5000/api/profile');
       setUserProfile(response.data);
+      setError(null); // Clear any previous errors
     } catch (error) {
       console.error(error);
+      setError('Error fetching profile'); // Set error message
     }
   };
 
@@ -33,7 +37,9 @@ const Profile = () => {
       {isLoggedIn ? (
         <div>
           <h1>User Profile</h1>
-          {userProfile ? (
+          {error ? (
+            <div>Error: {error}</div>
+          ) : userProfile ? (
             <div>
               <h1>{userProfile.name}</h1>
               <p>@{userProfile.username}</p>
@@ -56,6 +62,7 @@ const Profile = () => {
 };
 
 export default Profile;
+
 
 
 

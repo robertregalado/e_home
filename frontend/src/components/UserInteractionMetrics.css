@@ -1,0 +1,66 @@
+/*.user-interaction-metrics {
+    margin-bottom: 20px;
+}
+
+.chart-title {
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+
+.metrics-list {
+    list-style: none;
+    padding: 0;
+}
+
+.metrics-item {
+    margin-bottom: 10px;
+}
+
+.action {
+    font-weight: bold;
+    color: #333; 
+}
+
+.count {
+    margin-left: 10px;
+    color: #666; 
+}
+*/
+
+.user-interaction-card {
+    margin-bottom: 20px;
+    width: 300px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+}
+
+.card-header {
+    margin-bottom: 10px;
+    border-bottom: 1px solid #ccc;
+}
+
+.chart-title {
+    font-size: 18px;
+    margin: 0;
+}
+
+.metrics-list {
+    list-style: none;
+    padding: 0;
+}
+
+.metrics-item {
+    margin-bottom: 10px;
+}
+
+.action {
+    font-weight: bold;
+    color: #333; /* Color for action */
+}
+
+.count {
+    margin-left: 10px;
+    color: #666; /* Color for count */
+}

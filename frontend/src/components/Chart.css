@@ -1,0 +1,19 @@
+.chart-container {
+    width: 100%;
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+.chart-svg {
+    width: 100%;
+    height: auto;
+}
+
+.bar {
+    fill: steelblue;
+    transition: height 0.5s;
+}
+
+.bar:hover {
+    fill: lightblue;
+}

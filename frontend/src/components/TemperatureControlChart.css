@@ -1,0 +1,96 @@
+/*.temperature-control-chart {
+    margin-bottom: 20px;
+}
+
+.chart-title {
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+
+.temperature-list {
+    list-style: none;
+    padding: 0;
+}
+
+.temperature-item {
+    margin-bottom: 10px;
+    display: flex;
+    align-items: center;
+}
+
+.time {
+    flex: 1;
+}
+
+.temperature-indicator {
+    width: 50px;
+    height: 200px; 
+    background-color: #f0f0f0;
+    border-radius: 5px;
+    margin-right: 10px;
+    position: relative;
+}
+
+.temperature-bar {
+    width: 100%;
+    background-color: #007bff;
+    border-radius: 5px;
+}
+
+.temperature-value {
+    font-size: 14px;
+}
+*/
+
+.temperature-control-card {
+    margin-bottom: 20px;
+    width: 300px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+}
+
+.card-header {
+    margin-bottom: 10px;
+    border-bottom: 1px solid #ccc;
+}
+
+.chart-title {
+    font-size: 18px;
+    margin: 0;
+}
+
+.temperature-list {
+    list-style: none;
+    padding: 0;
+}
+
+.temperature-item {
+    margin-bottom: 10px;
+    display: flex;
+    align-items: center;
+}
+
+.time {
+    flex: 1;
+}
+
+.temperature-indicator {
+    width: 50px;
+    height: 200px; /* Maximum height for the chart */
+    background-color: #f0f0f0;
+    border-radius: 5px;
+    margin-right: 10px;
+    position: relative;
+}
+
+.temperature-bar {
+    width: 100%;
+    background-color: #007bff;
+    border-radius: 5px;
+}
+
+.temperature-value {
+    font-size: 14px;
+}

@@ -1,0 +1,15 @@
+.device-grouping {
+    margin-bottom: 20px;
+}
+
+.grouping-title {
+    font-size: 20px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.device-list {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+    gap: 20px;
+}

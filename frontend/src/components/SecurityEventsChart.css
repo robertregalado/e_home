@@ -1,0 +1,66 @@
+/*.security-events-chart {
+    margin-bottom: 20px;
+}
+
+.chart-title {
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+
+.event-list {
+    list-style: none;
+    padding: 0;
+}
+
+.event-item {
+    margin-bottom: 10px;
+    display: flex;
+    align-items: center;
+}
+
+.time {
+    flex: 1;
+}
+
+.event {
+    font-weight: bold;
+    color: #ff0000; 
+*/
+.security-events-card {
+    margin-bottom: 20px;
+    width: 300px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+}
+
+.card-header {
+    margin-bottom: 10px;
+    border-bottom: 1px solid #ccc;
+}
+
+.chart-title {
+    font-size: 18px;
+    margin: 0;
+}
+
+.event-list {
+    list-style: none;
+    padding: 0;
+}
+
+.event-item {
+    margin-bottom: 10px;
+    display: flex;
+    align-items: center;
+}
+
+.time {
+    flex: 1;
+}
+
+.event {
+    font-weight: bold;
+    color: #ff0000; /* Color for security events */
+}

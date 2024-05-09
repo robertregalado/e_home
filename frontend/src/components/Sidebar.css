@@ -1,0 +1,13 @@
+.sidebar-container {
+    /* Default styles when sidebar is open */
+    width: 250px;
+    height: 100%;
+    background-color: #fff;
+    /* Add more styles as needed */
+}
+
+.sidebar-container.closed {
+    /* Styles when sidebar is closed */
+    width: 0;
+    /* Add more styles as needed */
+}

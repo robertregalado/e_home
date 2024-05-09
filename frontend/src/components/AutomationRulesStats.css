@@ -1,0 +1,68 @@
+/*.automation-rules-stats {
+    margin-bottom: 20px;
+}
+
+.chart-title {
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+
+.stats-list {
+    list-style: none;
+    padding: 0;
+}
+
+.stats-item {
+    margin-bottom: 10px;
+}
+
+.category {
+    font-weight: bold;
+    color: #333; 
+}
+
+.total-rules,
+.active-rules {
+    margin-left: 10px;
+    color: #666;
+}
+*/
+
+.automation-rules-card {
+    margin-bottom: 20px;
+    width: 300px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+}
+
+.card-header {
+    margin-bottom: 10px;
+    border-bottom: 1px solid #ccc;
+}
+
+.chart-title {
+    font-size: 18px;
+    margin: 0;
+}
+
+.stats-list {
+    list-style: none;
+    padding: 0;
+}
+
+.stats-item {
+    margin-bottom: 10px;
+}
+
+.category {
+    font-weight: bold;
+    color: #333; /* Color for category */
+}
+
+.total-rules,
+.active-rules {
+    margin-left: 10px;
+    color: #666; /* Color for stats */
+}

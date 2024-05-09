@@ -1,0 +1,98 @@
+/*.device-usage-chart {
+    margin-bottom: 20px;
+}
+
+.chart-title {
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+
+.device-list {
+    list-style: none;
+    padding: 0;
+}
+
+.device-item {
+    margin-bottom: 10px;
+    display: flex;
+    align-items: center;
+}
+
+.device-name {
+    flex: 1;
+}
+
+.usage-bar-container {
+    width: 150px;
+    height: 20px;
+    background-color: #f0f0f0;
+    border-radius: 5px;
+    margin-right: 10px;
+    position: relative;
+}
+
+.usage-bar {
+    height: 100%;
+    background-color: #007bff;
+    border-radius: 5px;
+}
+
+.usage-percent {
+    font-size: 14px;
+}
+*/
+
+.card {
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    background-color: #fff;
+    margin-bottom: 20px;
+}
+
+.card-header {
+    padding: 12px;
+    border-bottom: 1px solid #ccc;
+    background-color: #f5f5f5;
+}
+
+.card-body {
+    padding: 20px;
+}
+
+.chart-title {
+    margin: 0;
+    font-size: 1.25rem;
+}
+
+.device-list {
+    list-style: none;
+    padding: 0;
+}
+
+.device-item {
+    margin-bottom: 10px;
+}
+
+.device-name {
+    font-weight: bold;
+}
+
+.usage-bar-container {
+    width: 100%;
+    height: 10px;
+    background-color: #f0f0f0;
+    border-radius: 5px;
+    overflow: hidden;
+}
+
+.usage-bar {
+    height: 100%;
+    background-color: #007bff;
+    border-radius: 5px;
+}
+
+.usage-percent {
+    font-size: 0.9rem;
+    color: #666;
+}

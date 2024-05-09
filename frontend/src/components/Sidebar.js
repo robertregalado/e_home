@@ -1,6 +1,7 @@
 import React from "react";
 import { useState } from "react";
 import { NavLink } from 'react-router-dom';
+import './Sidebar.css'; 
 
 import { RiDashboardFill } from "react-icons/ri";
 
@@ -33,20 +34,20 @@ const Sidebar = () => {
 
   const Menus = [
     { title: "Dashboard", icon: <RiDashboardFill />, path: '/dashboard' },
-    { title: "Media", icon: <BsFillImageFill />, path: './media' },
+    //{ title: "Media", icon: <BsFillImageFill />, path: './media' },
     { title: "Devices", icon: <BsFillDeviceSsdFill />, path: './devices' },
-    {
-      title: "Projects",
-      icon: <BsReverseLayoutSidebarInsetReverse />,
-      path:'./projects',
-      submenu: true,
-      submenuItems: [
-        { title: "Submenu 1" },
-        { title: "Submenu 2" },
-        { title: "Submenu 3" },
-      ],
-    },
-    { title: "Analytics", icon: <AiOutlineBarChart />, path: './analytics' },
+    // {
+    //   title: "Projects",
+    //   icon: <BsReverseLayoutSidebarInsetReverse />,
+    //   path:'./projects',
+    //   submenu: true,
+    //   submenuItems: [
+    //     { title: "Submenu 1" },
+    //     { title: "Submenu 2" },
+    //     { title: "Submenu 3" },
+    //   ],
+    // },
+    { title: "Analytics", icon: <AiOutlineBarChart />, path: './smarthomeanalyticspage' },
     { title: "Settings", icon: <AiOutlineSetting />, path: './settings' },
 
   ];
@@ -54,6 +55,7 @@ const Sidebar = () => {
   return (
     <React.Fragment>
       <section>
+      <div className={`sidebar-container ${open ? "open" : "closed"}`}>
         <div className="flex">
           <div 
             className={`bg-sea-green h-screen p-5 pt-8 ${open ? "w-72":"w-20"} duration-300 relative`}>
@@ -122,6 +124,7 @@ const Sidebar = () => {
 
         </div>
 
+      </div>
       </div>
       </section>
     </React.Fragment>

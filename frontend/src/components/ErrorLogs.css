@@ -1,0 +1,66 @@
+/*.error-logs {
+    margin-bottom: 20px;
+}
+
+.logs-title {
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+
+.logs-list {
+    list-style: none;
+    padding: 0;
+}
+
+.log-item {
+    margin-bottom: 10px;
+}
+
+.timestamp {
+    font-weight: bold;
+    color: #333; 
+}
+
+.message {
+    margin-left: 10px;
+    color: #900; 
+}
+*/
+
+.error-logs-card {
+    margin-bottom: 20px;
+    width: 300px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+}
+
+.card-header {
+    margin-bottom: 10px;
+    border-bottom: 1px solid #ccc;
+}
+
+.logs-title {
+    font-size: 18px;
+    margin: 0;
+}
+
+.logs-list {
+    list-style: none;
+    padding: 0;
+}
+
+.log-item {
+    margin-bottom: 10px;
+}
+
+.timestamp {
+    font-weight: bold;
+    color: #333; /* Color for timestamp */
+}
+
+.message {
+    margin-left: 10px;
+    color: #900; /* Color for error message */
+}
